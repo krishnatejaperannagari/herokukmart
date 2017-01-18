@@ -19,7 +19,7 @@ var ejs             = require('ejs'),
 
 var devMode = {
     // set true to enable dev functions
-    active      : false,
+    active      : true,
     // set up properties of seedConfig
     seedConfig  : {
         // set true to run seed script on startup 
@@ -29,7 +29,7 @@ var devMode = {
         // delete all products
         products: false,
         // how many products to seed
-        quantity: 50,
+        quantity: 20,
         // log events
         feedback: true
         
