@@ -45,7 +45,7 @@ var devMode = {
     }
 };
 
-mongoose.connect('mongodb://localhost:27017/hyena');
+mongoose.connect('mongodb://user6WF:XxQ4GxtR3QfCD0ji@mongoperannagari/sampledb');
 
 // Initialize express
 
