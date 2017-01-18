@@ -45,7 +45,7 @@ var devMode = {
     }
 };
 
-mongoose.connect('mongodb://user6WF:XxQ4GxtR3QfCD0ji@mongoperannagari/sampledb');
+mongoose.connect('mongodb://userY8W:CSxqaHwP4pB4BY0Y@mongodb/sampledb');
 
 // Initialize express
 
