@@ -45,7 +45,7 @@ var devMode = {
     }
 };
 
-mongoose.connect('mongodb://userY8W:CSxqaHwP4pB4BY0Y@mongodb/sampledb');
+mongoose.connect('mongodb://kmart:kmart@ds111479.mlab.com:11479/heroku_wptkz6kq');
 
 // Initialize express
 
