@@ -291,6 +291,6 @@ app.get('*', function(req, res){
 
 //Start server
 
-app.listen('8080', function(){
+app.listen(process.env.PORT || 5000, function(){
     console.log('server has started at 7895');
 }); 
