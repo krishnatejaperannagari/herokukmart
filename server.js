@@ -45,7 +45,7 @@ var devMode = {
     }
 };
 
-mongoose.connect('mongodb://kmart:kmart@ds111479.mlab.com:11479/heroku_wptkz6kq');
+mongoose.connect(process.env.MONGODB_URI);
 
 // Initialize express
 
